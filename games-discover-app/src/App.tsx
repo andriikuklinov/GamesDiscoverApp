@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { Grid, GridItem, Show } from '@chakra-ui/react'
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,9 +16,9 @@ function App() {
           <Navbar />
         </GridItem>
         <Show above="lg">
-          <GridItem area="aside" bg="gold">Aside</GridItem>
+          <GridItem area="aside">Aside</GridItem>
         </Show>
-        <GridItem area="main" bg="dodgerblue">Main</GridItem>
+        <GridItem area="main">Main</GridItem>
       </Grid>
     </>
   )
