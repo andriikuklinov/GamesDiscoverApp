@@ -1,6 +1,5 @@
 import { Box } from "@chakra-ui/react";
 import { ReactElement } from "react";
-import { IconType } from "react-icons";
 import { BsStar, BsStarFill, BsStarHalf } from "react-icons/bs";
 
 interface Props{
