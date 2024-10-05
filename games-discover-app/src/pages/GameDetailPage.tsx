@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import useGame from "../hooks/useGame";
 import { Heading, Spinner, Text } from "@chakra-ui/react";
-import { Game } from "../hooks/useGames";
+import { Game } from "../entities/Game";
 
 export default function GameDetailPage(){
     //debugger;
