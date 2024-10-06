@@ -7,6 +7,7 @@ import DefinitionItem from "../components/DefinitionItem/DefinitionItem";
 import CriticScore from "../components/CriticScore/CriticScore";
 import GameAttributes from "../components/GameAttributes/GameAttributes";
 import GameTrailer from "../components/GameTrailer/GameTrailer";
+import GameScreenshots from "../components/GameScreenshots/GameScreenshots";
 
 export default function GameDetailPage(){
     //debugger;
@@ -21,5 +22,6 @@ export default function GameDetailPage(){
         <ExpandableText>{(game as Game).description_raw}</ExpandableText>
         <GameAttributes game={game}/>
         <GameTrailer gameId={game.id}/>
+        <GameScreenshots gameId={game.id}/>
     </>
 }
