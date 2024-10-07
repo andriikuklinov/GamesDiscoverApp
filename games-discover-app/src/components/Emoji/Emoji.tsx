@@ -7,7 +7,6 @@ interface Props{
 }
 
 export default function Emoji({rating}: Props){
-    debugger;
     const emojiMap: { [key: number]: { src: ReactElement, alt: string} } = {
         3: { src: <BsStar/>, alt: 'low'},
         4: { src: <BsStarHalf fill="gold"/>, alt: 'recomended'},
